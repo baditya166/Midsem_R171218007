@@ -18,4 +18,12 @@ b=next;
 }
 }
 };
+int main()
+{
+int a=0,b=1,n;
+cout<<"eter any number:";
+cin>>a>>b>>n;
+c1 obj;
+obj.fibonacci(a,b,n);
+}
 
