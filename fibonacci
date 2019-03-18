@@ -1,0 +1,20 @@
+//fibonacci program
+#include<iostream>
+using namespace std;
+class c1
+{
+private 
+int x,y;
+void fibonacci(int a,int b,int n)
+{
+int i,next;
+cout<<a<<endl;
+cout<<b<<endl;
+for(i=1;i<=n-2;i++)
+{
+next=a+b;
+cout<<next<<endl;
+a=b;
+b=next;
+}
+}
