@@ -3,8 +3,7 @@
 using namespace std;
 class c1
 {
-private 
-int x,y;
+public:
 void fibonacci(int a,int b,int n)
 {
 int i,next;
@@ -18,3 +17,5 @@ a=b;
 b=next;
 }
 }
+};
+
